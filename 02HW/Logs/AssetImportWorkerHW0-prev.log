@@ -7,9 +7,9 @@ Darwin version:          25.6.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-09-13T10:35:41Z
+Date:                    2026-09-13T10:36:20Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yujinahn" at "2026-09-13T10:35:41.751109Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yujinahn" at "2026-09-13T10:36:20.469409Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/MacOS/Unity
@@ -23,9 +23,9 @@ AssetImportWorkerHW0
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-56713
+56720
 -parentPid
-24094
+24107
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -90,7 +90,7 @@ Successfully changed project path to: /Users/yujinahn/02HW
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
 Player connection [8491655552]  Target information:
 
-Player connection [8491655552]  * "[IP] 10.241.84.67 [Port] 0 [Flags] 2 [Guid] 862109720 [EditorId] 862109720 [Version] 1048832 [Id] OSXEditor(0,Yujins-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8491655552]  * "[IP] 10.241.84.67 [Port] 0 [Flags] 2 [Guid] 4115304831 [EditorId] 4115304831 [Version] 1048832 [Id] OSXEditor(0,Yujins-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8491655552] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8491655552] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -133,25 +133,25 @@ Has Float Filtering: 1
 ReadWrite Texture Tier: 2
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              af8320e6471d492b8aba14b2b46080d5
+  Session Id:              58d773b453a44eecac6a3f5f114eeb1a
   Correlation Id:          5418f418eff72a326e615bec0f58b09b
-  External correlation Id: 595173432367651048
+  External correlation Id: 6884831729843321252
   Machine Id:              nppAelVOzBeiua0UUBejf73oZo4=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yujinahn" (connect: 0.00s, validation: 0.00s, handshake: 0.39s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yujinahn-notifications" at "2026-09-13T10:35:42.14607Z"
-[Licensing::Module] Licensing Background thread has ended after 0.40s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yujinahn" (connect: 0.00s, validation: 0.00s, handshake: 0.47s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yujinahn-notifications" at "2026-09-13T10:36:20.93807Z"
+[Licensing::Module] Licensing Background thread has ended after 0.47s
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56103
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.0f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000655 seconds.
+Registered in 0.000618 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -159,3 +159,126 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 979ms
+	BeginReloadAssembly (75ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (75ms)
+		TypeCache.Refresh (216ms)
+			TypeCache.ScanAssembly (201ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (534ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (277ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569794552827-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.637 seconds
+Domain Reload Profiling: 1334ms
+	BeginReloadAssembly (143ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (201ms)
+		TypeCache.Refresh (173ms)
+			TypeCache.ScanAssembly (155ms)
+		AnalyzeDomain (48ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (638ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6609 unused Assets / (5.8 MB). Loaded Objects now: 7469.
+Memory consumption went from 187.6 MB to 181.8 MB.
+Total: 15.172750 ms (FindLiveObjects: 2.287167 ms CreateObjectMapping: 0.367709 ms MarkObjects: 8.262333 ms  DeleteObjects: 4.008334 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-13T10:36:24.696301Z
+  Time since last request: 165703.02861508299247 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/S02/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/S02/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '16a37088f2ce3e6fbbf25e03f0443c95') in 0.072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75655986b95c6be30202dbff96578e24 DependenciesID=daff2c141b7d1f4894fa38b0a26e075a StaticDependenciesID=cfe5f7ac4f0b8e10ad34afb64a1630a0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-13T10:36:39.512474Z
+  Time since last request: 14.718036833 seconds.
+  importAddress: GUID: 9c53962885c2c4f449125a979d6ad240 - Path: Assets/S02/Scenes - Importer: PreviewImporter
+Importing 'GUID: 9c53962885c2c4f449125a979d6ad240 - Path: Assets/S02/Scenes - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9c53962885c2c4f449125a979d6ad240' -> (Import Result ID: '5564a76921880800cb70ccb99edc2f9c') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=350f5c5e13b2998d53017bdd858ee510 DependenciesID=fe1394fd63357ffba2a9061d7f302132 StaticDependenciesID=27ddc89e5381effa93e03a4ae8fc50ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-13T10:36:40.758566Z
+  Time since last request: 1.232156417 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/S02/Scenes/SampleScene.unity - Importer: PreviewImporter
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/S02/Scenes/SampleScene.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: 'fb7d131858e5b7e53f689f3906655f7f') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60ca0ca267162a69cdf8a1143a5075b0 DependenciesID=52bd1bd135654e194111367859da3035 StaticDependenciesID=a053aecdeeb28fc273742606d0f0612f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (5.1 MB). Loaded Objects now: 7471.
+Memory consumption went from 182.3 MB to 177.1 MB.
+Total: 8.995209 ms (FindLiveObjects: 0.354625 ms CreateObjectMapping: 0.093375 ms MarkObjects: 7.236375 ms  DeleteObjects: 1.153833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+Thread 0x17fe47000 may have been prematurely finalized
+Thread 0x17fd47000 may have been prematurely finalized
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
