@@ -1,0 +1,31 @@
+[2026-09-13T10:36:15.315Z][INFO] Command-line: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager server -s 24107 --ipc-path /tmp/Unity-Upm-24107.sock -l 2 --log-file /Users/yujinahn/02HW/Logs/upm.log
+[2026-09-13T10:36:15.329Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-24107.sock).
+[2026-09-13T10:36:15.329Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-24107.
+[2026-09-13T10:36:16.670Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-13T10:36:16.826Z][INFO] project:list-packages --> 200 (156 ms)
+[2026-09-13T10:36:17.140Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-13T10:36:17.145Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-09-13T10:36:17.151Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-13T10:36:17.244Z][INFO] project:list-packages --> 200 (93 ms)
+[2026-09-13T10:36:19.842Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-13T10:36:19.897Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-13T10:36:19.936Z][INFO] project:list-packages --> 200 (94 ms)
+[2026-09-13T10:36:19.975Z][INFO] project:list-packages --> 200 (78 ms)
+[2026-09-13T10:36:20.067Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-13T10:36:20.135Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-13T10:36:20.139Z][INFO] project:list-packages --> 200 (72 ms)
+[2026-09-13T10:36:20.139Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-09-13T10:36:21.887Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-13T10:36:21.971Z][INFO] project:list-packages --> 200 (84 ms)
+[2026-09-13T10:36:24.154Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-13T10:36:25.741Z][INFO] project:list-packages --> 200 (1587 ms)
+[2026-09-13T10:37:06.055Z][INFO] Received shutdown request (SIGTERM), shutting down Unity Package Manager
