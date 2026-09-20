@@ -1335,3 +1335,553 @@ Script 'Foo.cs' will not be compiled because it exists outside the Assets folder
 Script 'Foo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Asset Pipeline Refresh (id=e031e061734944a8a913dfa154c17510): Total: 0.081 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 Asset Pipeline Refresh (id=f0393a3dab42740eea8deb19bfbad534): Total: 0.069 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=3a71bc560e8de4893b536e51eb3795cb): Total: 0.083 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+2026-09-20 20:24:48.664 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8de5d8780 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-09-20 20:25:16.197 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8dd409860 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-09-20 20:25:17.101 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8dab1cb40 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-09-20 20:25:18.422 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8de5d9720 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-09-20 20:25:32.612 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8d5da0320 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
+Asset Pipeline Refresh (id=ba98fcaf443c94abd8f281c6630bd4a4): Total: 0.162 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Starting: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/yujinahn/Documents/GitHub/CG_2528016/S03
+ExitCode: 4 Duration: 0s97ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/200b0aE-inputdata.json
+*** Tundra requires additional run (0.08 seconds), 0 items updated, 181 evaluated
+Starting: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet "/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/200b0aE.dag.json" "Library/Bee/200b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+WorkingDir: /Users/yujinahn/Documents/GitHub/CG_2528016/S03
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon.cs - Importer: PreviewImporter -> (ImportResultId: '60ce227ea9aaa1fa8e90fe49bbc7cf74') in 0.017042208 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fbae3e2f734914b5335fca998b9af17d') in 0.04528375 seconds
+ExitCode: 0 Duration: 1s32ms
+Starting: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/200b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: /Users/yujinahn/Documents/GitHub/CG_2528016/S03
+ExitCode: 0 Duration: 0s558ms
+Finished compiling graph: 902 nodes, 18805 flattened edges (16001 ToBuild, 148 ToUse), maximum node priority 1022
+[465/899    0s] WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+[683/899    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[715/899    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+[892/899    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[893/899    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 143 defines and 352 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[894/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[895/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[896/899    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 141 defines and 375 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[897/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[898/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.54 seconds), 10 items updated, 899 evaluated
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 265963356
+Total cache size after purge 265963356, took 00:00:00.1506551
+GPU Resident Drawer disposed.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-09-20 20:26:01.183 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8dab1d040 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (357ms)
+		DisableScriptedObjects (66ms)
+		CreateAndSetChildDomain (169ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (86ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (88ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (817ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+		AwakeInstancesAfterBackupRestoration (292ms)
+
+Asset Pipeline Refresh (id=fb1d4248771824b91974c701cdd8dd10): Total: 1.591 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=883 ms
+		Asset DB Callback time: managed=27 ms, native=21 ms
+		Scripting: domain reloads=1, domain reload time=657 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1369, non-scripts=2316
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.882ms
+	ApplyChangesToAssetFolders: 0.187ms
+	Collect global state as custom dependencies: 0.897ms
+	ProcessAssetsWithTransientArtifactChanges: 2.573ms
+	CategorizeAssets: 32.840ms
+	CompileScripts: 0.764ms
+	ImportOutOfDateAssets: 820.380ms (819.335ms without children)
+		CollectScriptTypesHashes: 0.778ms
+		ReloadNativeAssets: 0.488ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.312ms
+		ImportSchedulerStart: 0.185ms
+	PostProcessAllAssets: 27.256ms
+		XRBuildSystem.XRAssetImported 0.066ms
+		MonoPostProcessAllAssets: 27.032ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 6.820ms
+			SyncVS.PostprocessSyncProject 3.160ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.005ms
+			AssetChangedListener.OnPostprocessAllAssets 2.346ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.490ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.751ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.672ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.610ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.523ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.349ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.319ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.316ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.267ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.223ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.216ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.216ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.138ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.136ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.131ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.128ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.114ms
+			PostProcessor.OnPostprocessAllAssets 0.109ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.109ms
+			AssetEvents.OnPostprocessAllAssets 0.085ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.079ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.063ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.061ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.056ms
+	PostAssetChangesProfiler: 21.172ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.292ms
+	PersistCurrentRevisions: 0.074ms
+	GenerateScriptTypeHashes: 1.041ms
+	GenerateScriptTypeSerializationHashes: 1.876ms
+	Untracked: 681.629ms
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Asset Pipeline Refresh (id=3da1513da34824d4b827b60e8f758966): Total: 0.141 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Starting: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/yujinahn/Documents/GitHub/CG_2528016/S03
+ExitCode: 4 Duration: 0s180ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/200b0aE-inputdata.json
+[683/899    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.16 seconds), 2 items updated, 682 evaluated
+Starting: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet "/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/200b0aE.dag.json" "Library/Bee/200b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+WorkingDir: /Users/yujinahn/Documents/GitHub/CG_2528016/S03
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008529 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007391625 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007352459 seconds
+ExitCode: 0 Duration: 1s29ms
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007411709 seconds
+Starting: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/200b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: /Users/yujinahn/Documents/GitHub/CG_2528016/S03
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008115208 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007274833 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007261958 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007111625 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007062875 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.006898875 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007063583 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.00704175 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.00683375 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007097625 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.006906875 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.006962041 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.0072385 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007220916 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.00709425 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007275292 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.0071265 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007204709 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007050334 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.00723225 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007235042 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007854459 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008201875 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008097959 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007780792 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008783291 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008414041 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007380125 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007716625 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007862458 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007531125 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007868167 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009876958 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007248125 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007715625 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007630958 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007038417 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.006952 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007252917 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008288667 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007491667 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007618666 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007420667 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007518042 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.00829725 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007902917 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.00979875 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.010432583 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008050292 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.011044708 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009535541 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.010888541 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.012544333 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009881916 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009703125 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.01132075 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.0113405 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009837667 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008507542 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.00944125 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.010095334 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008523416 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008429458 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009530625 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008123125 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009568 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.012591583 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007909334 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007855584 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008375834 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008245625 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008433875 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009334334 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.011632833 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.012147167 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.012818042 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.014271417 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.012061792 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009960917 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.011080708 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009869916 seconds
+ExitCode: 0 Duration: 0s967ms
+Finished compiling graph: 902 nodes, 18805 flattened edges (16001 ToBuild, 148 ToUse), maximum node priority 1022
+[465/899    0s] WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+[683/899    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[684/899    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+[892/899    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[893/899    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 143 defines and 352 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[894/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[895/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[896/899    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 141 defines and 375 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[897/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[898/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.93 seconds), 10 items updated, 899 evaluated
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008140792 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.00802325 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007765833 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008381709 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008112667 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.010811708 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008297084 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.010926083 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.009259792 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007673292 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007551042 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007144542 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007648709 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007749542 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.008990375 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007670125 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007557042 seconds
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '27b1b6c33632e5a58695e4bbedf06384') in 0.007416166 seconds
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 265963356
+Total cache size after purge 265963356, took 00:00:00.0892169
+GPU Resident Drawer disposed.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-09-20 20:26:08.145 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8daa8ea80 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (304ms)
+		DisableScriptedObjects (59ms)
+		CreateAndSetChildDomain (158ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (50ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (91ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (899ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+		AwakeInstancesAfterBackupRestoration (337ms)
+
+Asset Pipeline Refresh (id=272de0f6072284d6ea878443da21df0b): Total: 1.579 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=975 ms
+		Asset DB Callback time: managed=32 ms, native=26 ms
+		Scripting: domain reloads=1, domain reload time=543 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1369, non-scripts=2316
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.606ms
+	ApplyChangesToAssetFolders: 0.162ms
+	Collect global state as custom dependencies: 1.046ms
+	ProcessAssetsWithTransientArtifactChanges: 2.305ms
+	CategorizeAssets: 38.692ms
+	CompileScripts: 1.018ms
+	ImportOutOfDateAssets: 903.148ms (901.721ms without children)
+		CollectScriptTypesHashes: 0.543ms
+		ReloadNativeAssets: 0.566ms
+		UnloadImportedAssets: 0.056ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.344ms
+		ImportSchedulerStart: 0.442ms
+	PostProcessAllAssets: 32.854ms
+		XRBuildSystem.XRAssetImported 0.094ms
+		MonoPostProcessAllAssets: 32.527ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 7.709ms
+			SyncVS.PostprocessSyncProject 3.797ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.353ms
+			AssetChangedListener.OnPostprocessAllAssets 2.865ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.583ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.149ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.940ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.699ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.645ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.432ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.367ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.364ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.333ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.282ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.273ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.241ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.172ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.169ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.152ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.149ms
+			PostProcessor.OnPostprocessAllAssets 0.126ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.125ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.110ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.107ms
+			AssetEvents.OnPostprocessAllAssets 0.092ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.089ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.086ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.086ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.078ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.069ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.069ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.054ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.053ms
+	PostAssetChangesProfiler: 25.837ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.070ms
+	PersistCurrentRevisions: 0.074ms
+	GenerateScriptTypeHashes: 1.255ms
+	GenerateScriptTypeSerializationHashes: 2.241ms
+	Untracked: 572.124ms
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=78e89ce7e69644e04ae0e6c409ba4ef2): Total: 0.083 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=6d145456ec84d4b3a94ef9e036fc3a2d): Total: 0.094 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: 'f61316b7a10ca2e61f90354a16870b9b') in 0.033892834 seconds
+Asset Pipeline Refresh (id=dc84d4217a0034d549ef395f59bb37bf): Total: 0.068 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=d4e5b78734b6a42a4b29ba8904618022): Total: 0.075 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/yujinahn/Documents/GitHub/CG_2528016/S03
+ExitCode: 0 Duration: 0s410ms
+[683/899    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[891/899    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+[892/899    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 143 defines and 352 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[893/899    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[894/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[895/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[896/899    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 141 defines and 375 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[897/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[898/899    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.39 seconds), 9 items updated, 899 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 265963356
+Total cache size after purge 265963356, took 00:00:00.1759006
+GPU Resident Drawer disposed.
+Refreshing native plugins compatible for Editor in 2.73 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-09-20 20:27:46.781 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8de5e2260 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1400ms
+	BeginReloadAssembly (339ms)
+		DisableScriptedObjects (65ms)
+		CreateAndSetChildDomain (159ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (86ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (87ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (838ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+		AwakeInstancesAfterBackupRestoration (284ms)
+
+Asset Pipeline Refresh (id=79c649b3167e94d9893d6ab69823d3fd): Total: 2.481 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1165 ms
+		Asset DB Callback time: managed=29 ms, native=26 ms
+		Scripting: domain reloads=1, domain reload time=621 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1369, non-scripts=2316
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.491ms
+	ApplyChangesToAssetFolders: 0.122ms
+	Scan: 197.521ms
+	Collect global state as custom dependencies: 1.119ms
+	ProcessAssetsWithTransientArtifactChanges: 2.604ms
+	CategorizeAssets: 35.433ms
+	CompileScripts: 0.833ms
+	ImportOutOfDateAssets: 843.596ms (842.327ms without children)
+		CollectScriptTypesHashes: 1.077ms
+		ReloadNativeAssets: 0.473ms
+		UnloadImportedAssets: 0.167ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.310ms
+		ImportSchedulerStart: 0.305ms
+	PostProcessAllAssets: 28.269ms
+		XRBuildSystem.XRAssetImported 0.077ms
+		MonoPostProcessAllAssets: 27.964ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 6.796ms
+			SyncVS.PostprocessSyncProject 3.226ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.167ms
+			AssetChangedListener.OnPostprocessAllAssets 2.451ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.424ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.761ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.736ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.643ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.485ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.389ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.321ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.319ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.278ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.250ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.231ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.221ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.145ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.133ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.132ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.124ms
+			PostProcessor.OnPostprocessAllAssets 0.124ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.111ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.095ms
+			AssetEvents.OnPostprocessAllAssets 0.083ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.074ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.067ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.062ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.055ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.053ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.050ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.050ms
+	PostAssetChangesProfiler: 25.059ms
+	PersistCurrentRevisions: 0.070ms
+	GenerateScriptTypeHashes: 1.027ms
+	GenerateScriptTypeSerializationHashes: 1.875ms
+	Untracked: 638.218ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+[Worker0] Imported GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter -> (ImportResultId: '57acd8f0103d89282bd98f0b0221e375') in 0.008183709 seconds
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+GPU Resident Drawer disposed.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.458 ms
+	Integration:            12.695 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   13.162 ms
+Unloading 99 unused Assets / (16.6 MB). Loaded Objects now: 8917.
+Memory consumption went from 348.0 MB to 331.3 MB.
+Total: 20.461208 ms (FindLiveObjects: 0.361166 ms CreateObjectMapping: 0.189542 ms MarkObjects: 16.593750 ms  DeleteObjects: 3.224042 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+2026-09-20 20:28:01.037 Unity[41827:4392314] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8daa8fa20 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+AcceleratorClientConnectionCallback - disconnected - :0
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: 'a688391df8740e720d88823c0b594871') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=0a89a5c5f492143e0fa186859e17ba6f DependenciesID=6e7ea4bc4f8b410a6e9110bcc5ce0e72 StaticDependenciesID=458f1ed840e5dd8bd3900e3d44f5f774 
+Asset Pipeline Refresh (id=8c918fe3564444cfb866e45edc01534d): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/S03/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '5f1f537c16a3abc79cfc529359142851') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b4491ddbae88a879b6308480a6079ca7 DependenciesID=09d2acdfdbb56762de94d7a13b668f60 StaticDependenciesID=615213169dd3f7bcad50de3fc7b8a2e8 
+Asset Pipeline Refresh (id=a4ca42a736edd4f4bb30d0a6c7514094): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)

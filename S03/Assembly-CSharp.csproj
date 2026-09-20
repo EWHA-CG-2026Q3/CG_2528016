@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/S03/TutorialInfo/Readme.cs" />
+    <Compile Include="Assets/S03/S03 custom polygon mesh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/S03/TutorialInfo/StyleSheets/ReadmeEditor.uss" />
