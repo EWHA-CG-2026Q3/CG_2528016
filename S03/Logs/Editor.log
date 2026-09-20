@@ -2039,3 +2039,44 @@ Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/Qualit
 Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
 Asset Pipeline Refresh (id=ecaea95a00efe419398cf63707e24a3b): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Asset Pipeline Refresh (id=7474112c1f8404fdaa4ea32094e360cb): Total: 0.076 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 125433; Successful remaps: 37794
+Thread 0x4230b3000 may have been prematurely finalized
+Thread 0x41dd8b000 may have been prematurely finalized
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout /Users/yujinahn/Documents/GitHub/CG_2528016/S03/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/yujinahn/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+GPU Resident Drawer disposed.
+Thread 0x4187e7000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+Shutting down MSBuild server...
+Shutting down VB/C# compiler server...
+VB/C# compiler server shut down successfully.
+Thread 0x178dff000 may have been prematurely finalized
+Thread 0x178ce7000 may have been prematurely finalized
+Thread 0x178d73000 may have been prematurely finalized
+Thread 0x1790bb000 may have been prematurely finalized
+Thread 0x178e8b000 may have been prematurely finalized
+Thread 0x17902f000 may have been prematurely finalized
+Thread 0x178fa3000 may have been prematurely finalized
+Thread 0x178f17000 may have been prematurely finalized
+Thread 0x179147000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-yujinahn-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-yujinahn channel disconnected successfully.
+MSBuild server shut down successfully.
+Shut down UDS service system complete
+Thread 0x17d1c7000 may have been prematurely finalized
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 95
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1789903948658,"processId":41827,"allocatedMemory":17027647,"memoryLabels":[{"Default":234741},{"Permanent":15672},{"Thread":1056736},{"Manager":2329790},{"VertexData":8},{"Geometry":408},{"Texture":24},{"Shader":854534},{"Material":24},{"GfxDevice":44152},{"GfxThread":2880},{"Animation":968},{"Audio":1336},{"FreeType":8},{"FontEngine":736},{"Physics":2002},{"Physics2D":16},{"Serialization":17160},{"Input":43216},{"JobScheduler":448},{"TextLib":17778},{"Mono":56},{"MonoCode":144},{"ScriptingNativeRuntime":155024},{"BaseObject":49672},{"Resource":984},{"Renderer":2456},{"Transform":4693},{"File":31329},{"WebCam":32},{"Culling":32},{"Terrain":11346},{"Wind":24},{"String":3106495},{"StaticString":3808},{"Utility":2692032},{"PoolAlloc":2584},{"AI":80},{"TypeTree":931330},{"ScriptManager":44240},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7240},{"Director":8288},{"CloudService":7440},{"WebRequest":13594},{"VR":49426},{"SceneManager":616},{"Video":2112},{"LazyScriptCache":32},{"NativeArray":5616},{"Camera":1177},{"Secure":9865},{"SerializationCache":9704},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57504},{"StaticSafetyDebugInfo":278528},{"Baselib":16},{"Analytics":568},{"Hierarchy":1492},{"UIElements":40},{"CoreStats":14536},{"Identifiers":7152},{"Gui":13109},{"EditorUtility":139188},{"VersionControl":8},{"Undo":939},{"AssetDatabase":4667240},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":37056},{"Upm":1788},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":207},{"ProfilerEditor":9738},{"CoreBusinessMetrics":3205},{"Windowing":416},{"Licensing":992},{"AssetReference":32},{"IPCStream":7003}]}

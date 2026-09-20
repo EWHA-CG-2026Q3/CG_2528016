@@ -10,3 +10,6 @@ RunExternalCompiler: end
 compileSnippet complete
  ok=1 outsize=7241
 
+Cmd: shutdown
+
+Quitting shader compiler process
