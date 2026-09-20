@@ -7,18 +7,9 @@ Darwin version:          25.6.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-09-20T11:15:58Z
+Date:                    2026-09-20T11:39:25Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yujinahn" at "2026-09-20T11:15:58.013608Z"
-Initialising UDS system complete:
-  - System type: Client
-  - Resource namespace: 59fe54e4b4a260e8ddb3de6d589cd8cc
-  - Shared memory size: 1073741824
-  - Command buffer id: 1052672
-  - Command buffer size: 8192
-  - Hashmap size: 4194304
-  - Service connected: true
-  - Service working directory: Library/DataStore/
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yujinahn" at "2026-09-20T11:39:25.978858Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/MacOS/Unity
@@ -32,9 +23,9 @@ AssetImportWorkerHW0
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-65134
+65265
 -parentPid
-41827
+43595
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -99,7 +90,7 @@ Successfully changed project path to: /Users/yujinahn/Documents/GitHub/CG_252801
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
 Player connection [8491655552]  Target information:
 
-Player connection [8491655552]  * "[IP] 10.240.23.158 [Port] 0 [Flags] 2 [Guid] 1530159876 [EditorId] 1530159876 [Version] 1048832 [Id] OSXEditor(0,Yujins-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8491655552]  * "[IP] 10.240.23.158 [Port] 0 [Flags] 2 [Guid] 1380686761 [EditorId] 1380686761 [Version] 1048832 [Id] OSXEditor(0,Yujins-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8491655552] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8491655552] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -108,22 +99,22 @@ Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              ea2518d0079d4547ba843d22618721aa
-  Correlation Id:          70133e684531c739c376781d98f2795f
-  External correlation Id: 4087355472217499091
-  Machine Id:              nppAelVOzBeiua0UUBejf73oZo4=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yujinahn" (connect: 0.00s, validation: 0.01s, handshake: 0.34s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yujinahn-notifications" at "2026-09-20T11:15:58.357671Z"
-[Licensing::Module] Licensing Background thread has ended after 0.34s
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 59fe54e4b4a260e8ddb3de6d589cd8cc
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
 Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
 [EntityIdStore] init: VM path (explicit commit), pageSize=16384, blockCount=262144, entitiesPerBlock=1024, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -141,18 +132,27 @@ MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              a0b41c69a3704327b66b9c844aaf3351
+  Correlation Id:          70133e684531c739c376781d98f2795f
+  External correlation Id: 1859368031940475455
+  Machine Id:              nppAelVOzBeiua0UUBejf73oZo4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yujinahn" (connect: 0.00s, validation: 0.00s, handshake: 0.27s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yujinahn-notifications" at "2026-09-20T11:39:26.24469Z"
+[Licensing::Module] Licensing Background thread has ended after 0.27s
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56139
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56623
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.0f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000779 seconds.
+Registered in 0.000513 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -161,22 +161,22 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.426 seconds
-Domain Reload Profiling: 697ms
-	BeginReloadAssembly (46ms)
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 512ms
+	BeginReloadAssembly (48ms)
 	RebuildCommonClasses (3ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (46ms)
-		TypeCache.Refresh (128ms)
-			TypeCache.ScanAssembly (117ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (48ms)
+		TypeCache.Refresh (123ms)
+			TypeCache.ScanAssembly (112ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (427ms)
+	FinalizeReload (248ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (47ms)
-			ProcessInitializeOnLoadMethodAttributes (268ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (44ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -202,207 +202,71 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.382 seconds
-Domain Reload Profiling: 829ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.366 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (122ms)
 		DisableScriptedObjects (4ms)
-		CreateAndSetChildDomain (13ms)
+		CreateAndSetChildDomain (16ms)
 	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (318ms)
-		LoadAssemblies (144ms)
-		TypeCache.Refresh (103ms)
-			TypeCache.ScanAssembly (92ms)
-		AnalyzeDomain (32ms)
-			BuildScriptInfoCaches (29ms)
-	FinalizeReload (382ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (167ms)
+		TypeCache.Refresh (99ms)
+			TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (31ms)
+			BuildScriptInfoCaches (28ms)
+	FinalizeReload (367ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (145ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Launching external process: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6611 unused Assets / (8.2 MB). Loaded Objects now: 7466.
-Memory consumption went from 184.7 MB to 176.5 MB.
-Total: 6.718166 ms (FindLiveObjects: 0.612167 ms CreateObjectMapping: 0.131000 ms MarkObjects: 4.138459 ms  DeleteObjects: 1.739792 ms)
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6610 unused Assets / (7.7 MB). Loaded Objects now: 7469.
+Memory consumption went from 187.0 MB to 179.2 MB.
+Total: 7.059833 ms (FindLiveObjects: 0.664916 ms CreateObjectMapping: 0.268792 ms MarkObjects: 4.286916 ms  DeleteObjects: 1.741250 ms)
 
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (5.1 MB). Loaded Objects now: 7466.
-Memory consumption went from 178.0 MB to 172.9 MB.
-Total: 5.290458 ms (FindLiveObjects: 0.285250 ms CreateObjectMapping: 0.056625 ms MarkObjects: 3.897958 ms  DeleteObjects: 0.965541 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-09-20T11:16:20.254379Z
-  Time since last request: 298359.72410724998917 seconds.
-  importAddress: GUID: d243b4b03ae7444c6bb600eb675768dc - Path: Assets/S03 - Importer: PreviewImporter
-Importing 'GUID: d243b4b03ae7444c6bb600eb675768dc - Path: Assets/S03 - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: d243b4b03ae7444c6bb600eb675768dc' -> (Import Result ID: 'cb705eb37ded075d91a78b4fdd15ab25') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6937c24d616a166fbe260f0ea8b79c0f DependenciesID=1ed62160c29b9b68353291f501fae6eb StaticDependenciesID=18ba26fafe34c18f5440ee12e8498e5d 
+  Time of request: 2026-09-20T11:39:28.416174Z
+  Time since last request: 299747.88649195799371 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/S03/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/S03/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '589c3fe9375e48a7c85a9e07db633ca0') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8ff5b7112583960038646a3c1b7971b DependenciesID=b56dcef11fd319c7bb621a77ae79f045 StaticDependenciesID=629f0fdba7d73d030aa078eb582d4a8f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-20T11:39:28.455585Z
+  Time since last request: 0.000039209 seconds.
+  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '53f11dcdc4ab8e50560b9e454dee9c54') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aecd818f011ba026cb3cab8fe1f7ca32 DependenciesID=5cda6bb940ef5900e4763ed41eadf5c3 StaticDependenciesID=2b285fad70a01480f484dc3dcaefc671 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-09-20T11:16:21.239857Z
-  Time since last request: 0.975849 seconds.
-  importAddress: GUID: d243b4b03ae7444c6bb600eb675768dc - Path: Assets/S03 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: d243b4b03ae7444c6bb600eb675768dc - Path: Assets/S03 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: d243b4b03ae7444c6bb600eb675768dc' -> (Import Result ID: 'e867a801199e6e0ffdd9bb19d8e85a9b') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=695926939ebd3c8ab2ef8d4055ed2f49 DependenciesID=9423a9cb9b094c50a4c2e0ecb4c88b4f StaticDependenciesID=6ef87bc5078c7955ef2d03b27e628333 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6598 unused Assets / (7.1 MB). Loaded Objects now: 7468.
-Memory consumption went from 182.2 MB to 175.1 MB.
-Total: 6.224333 ms (FindLiveObjects: 0.582125 ms CreateObjectMapping: 0.220041 ms MarkObjects: 3.807167 ms  DeleteObjects: 1.529375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.173579Z
-  Time since last request: 4.907478417 seconds.
-  importAddress: GUID: 8a0c9218a650547d98138cd835033977 - Path: Assets/S03/TutorialInfo/Icons - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 8a0c9218a650547d98138cd835033977 - Path: Assets/S03/TutorialInfo/Icons - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 8a0c9218a650547d98138cd835033977' -> (Import Result ID: '206248e6598d9faf50fe34ad5257b3ae') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c48aba9f706a48212ce0461b8d93a1f1 DependenciesID=1d918e0d3ead3469df49bf85da3870e1 StaticDependenciesID=070b0c6aa92531d3bc021b96a922aa8d 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.181865Z
-  Time since last request: 0.000047791 seconds.
-  importAddress: GUID: 69e7ab73923f93149821ac3a88b84856 - Path: Assets/S03/TutorialInfo/StyleSheets/ReadmeEditorLight.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 69e7ab73923f93149821ac3a88b84856 - Path: Assets/S03/TutorialInfo/StyleSheets/ReadmeEditorLight.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 69e7ab73923f93149821ac3a88b84856' -> (Import Result ID: '7a07afec44ccfce71dd4232d9682e5ea') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4813d2f8c7457a87ce3cfb9947d4229 DependenciesID=7065b754e81b1bf952cbb1ae836908f2 StaticDependenciesID=8ee090c7842f9407858f95dc674a1c21 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.218367Z
-  Time since last request: 0.000082166 seconds.
-  importAddress: GUID: 3ad9b87dffba344c89909c6d1b1c17e1 - Path: Assets/S03/TutorialInfo/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 3ad9b87dffba344c89909c6d1b1c17e1 - Path: Assets/S03/TutorialInfo/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 3ad9b87dffba344c89909c6d1b1c17e1' -> (Import Result ID: 'acbd6655f2baebcb86ea94eda66a469d') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f224cd3fdcea3007123c5b1985c65647 DependenciesID=6176fa1b90b7492f41914aa60276f6dc StaticDependenciesID=aaff4483484403a7139ea5b2a56dba15 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.226229Z
-  Time since last request: 0.000235333 seconds.
-  importAddress: GUID: 709f11a7f3c4041caa4ef136ea32d874 - Path: Assets/S03/Settings - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 709f11a7f3c4041caa4ef136ea32d874 - Path: Assets/S03/Settings - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 709f11a7f3c4041caa4ef136ea32d874' -> (Import Result ID: 'bc73e144fa22a883db3bcb349459a993') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a0358240913d115b047a7a4c931b110 DependenciesID=9f1ddb6a0815e50c08ab8e55a13e6551 StaticDependenciesID=aeb96c29ac1f9a68fa94a8f5f48b8f86 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.234511Z
-  Time since last request: 0.000394417 seconds.
-  importAddress: GUID: ab09877e2e707104187f6f83e2f62510 - Path: Assets/S03/Settings/DefaultVolumeProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: ab09877e2e707104187f6f83e2f62510 - Path: Assets/S03/Settings/DefaultVolumeProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: ab09877e2e707104187f6f83e2f62510' -> (Import Result ID: 'bb2d152a250a88469a9e8530d61806dc') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=286e3422d93fb1a5d1694446c13a66e5 DependenciesID=30062b599ea57f1906571e4697c4bd85 StaticDependenciesID=ab70e7b902bbdef883fa6353e2e7897b 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.244161Z
-  Time since last request: 0.000197458 seconds.
-  importAddress: GUID: 5a9bcd70e6a4b4b05badaa72e827d8e0 - Path: Assets/S03/TutorialInfo/StyleSheets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 5a9bcd70e6a4b4b05badaa72e827d8e0 - Path: Assets/S03/TutorialInfo/StyleSheets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 5a9bcd70e6a4b4b05badaa72e827d8e0' -> (Import Result ID: '489a97b5a6c26add45eb2d1d1ea497cd') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad731f97ec5157f12a2add25985f8f9e DependenciesID=b78c22bbac603cf97890cdd5c206987b StaticDependenciesID=0d9addccde7edf7c78a4e556b1176630 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.251865Z
-  Time since last request: 0.000127375 seconds.
-  importAddress: GUID: 1f902e57f049a7f47986618de93f5ee1 - Path: Assets/S03/TutorialInfo/StyleSheets/ReadmeEditorDark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 1f902e57f049a7f47986618de93f5ee1 - Path: Assets/S03/TutorialInfo/StyleSheets/ReadmeEditorDark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 1f902e57f049a7f47986618de93f5ee1' -> (Import Result ID: '53219cf403fcb93547835cdd8656e658') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca3cbdb01237148c8db89f2c9222a746 DependenciesID=ef33e24891c001c91fef04a762e85366 StaticDependenciesID=40eeed47c25f7911ba7abbe028b374ac 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.260435Z
-  Time since last request: 0.0001755 seconds.
-  importAddress: GUID: f288ae1f4751b564a96ac7587541f7a2 - Path: Assets/S03/Settings/PC_Renderer.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: f288ae1f4751b564a96ac7587541f7a2 - Path: Assets/S03/Settings/PC_Renderer.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: f288ae1f4751b564a96ac7587541f7a2' -> (Import Result ID: '53d39682f406a548532bbc96ad4387ac') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3190212929df81c6ee25b61300c28a69 DependenciesID=c4c4aba756f7699d8f2e40885036a462 StaticDependenciesID=44cd59435bf8d71956ebe348a666c339 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.281817Z
-  Time since last request: 0.000232583 seconds.
-  importAddress: GUID: 476cc7d7cd9874016adc216baab94a0a - Path: Assets/S03/TutorialInfo/Editor/ReadmeEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 476cc7d7cd9874016adc216baab94a0a - Path: Assets/S03/TutorialInfo/Editor/ReadmeEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 476cc7d7cd9874016adc216baab94a0a' -> (Import Result ID: 'c9c4f2a45d7acb327d5dcfa4bee330b1') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3abfd6074cdb1edf30bd612fb0f65f61 DependenciesID=12e84efbabe6036e615b3e42bd997be9 StaticDependenciesID=c315cf64e6beff3c36f872be974a499e 
+  Time of request: 2026-09-20T11:39:29.371282Z
+  Time since last request: 0.894135209 seconds.
+  importAddress: GUID: 709f11a7f3c4041caa4ef136ea32d874 - Path: Assets/S03/Settings - Importer: PreviewImporter
+Importing 'GUID: 709f11a7f3c4041caa4ef136ea32d874 - Path: Assets/S03/Settings - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 709f11a7f3c4041caa4ef136ea32d874' -> (Import Result ID: 'fb64a58e3bf9acc0d919dd62c831aa30') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=076f39b770306bfb8c8282c31c8bac52 DependenciesID=b8ae2ef3f5abc185648fe0169d08194c StaticDependenciesID=4179d3de94a3b10a309fd2db522395a5 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.294446Z
-  Time since last request: 0.000503875 seconds.
-  importAddress: GUID: 727a75301c3d24613a3ebcec4a24c2c8 - Path: Assets/S03/TutorialInfo/Icons/URP.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 727a75301c3d24613a3ebcec4a24c2c8 - Path: Assets/S03/TutorialInfo/Icons/URP.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 727a75301c3d24613a3ebcec4a24c2c8' -> (Import Result ID: 'a2205a7f3a644a83cee6ce083727a0ce') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e0b81fbe15dc2d498b7da5a2bfeeb01 DependenciesID=873208b7e340f957cf75d0066166d871 StaticDependenciesID=b4263074613837617e94928885a17057 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.325611Z
-  Time since last request: 0.000189417 seconds.
-  importAddress: GUID: 65bc7dbf4170f435aa868c779acfb082 - Path: Assets/S03/Settings/Mobile_Renderer.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 65bc7dbf4170f435aa868c779acfb082 - Path: Assets/S03/Settings/Mobile_Renderer.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 65bc7dbf4170f435aa868c779acfb082' -> (Import Result ID: 'f0a7d259eba8a7c3cb70ffb09152cec5') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=692b16d6ae9bc9dc083d8a853b74a720 DependenciesID=b2459832119d58cee62e5c0868fc28b9 StaticDependenciesID=b54131b62d32bd74915f63b401879614 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.338316Z
-  Time since last request: 0.000244083 seconds.
-  importAddress: GUID: 10fc4df2da32a41aaa32d77bc913491c - Path: Assets/S03/Settings/SampleSceneProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 10fc4df2da32a41aaa32d77bc913491c - Path: Assets/S03/Settings/SampleSceneProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 10fc4df2da32a41aaa32d77bc913491c' -> (Import Result ID: '3eef379c091ff967f1382439c1264509') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcdac4856b4b7b8a34ae09db1263fad0 DependenciesID=49f0643f42bee111327578dd5afe8de7 StaticDependenciesID=03e0f380d0e013659de1fcd7c5e3a151 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:16:26.346141Z
-  Time since last request: 0.000151417 seconds.
-  importAddress: GUID: d2c670ece470f4c4fa6712b8dc28a9bb - Path: Assets/S03/TutorialInfo/StyleSheets/ReadmeEditor.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: d2c670ece470f4c4fa6712b8dc28a9bb - Path: Assets/S03/TutorialInfo/StyleSheets/ReadmeEditor.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: d2c670ece470f4c4fa6712b8dc28a9bb' -> (Import Result ID: '22c06cc628d9ab4296f5cf23ec2d4fb5') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe2f9e260cc039dc70f087e469a95bad DependenciesID=4f3b1783f98133611dedf6235477552f StaticDependenciesID=3d207405081daafd58a27159dd8703ba 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Thread 0x402b1f000 may have been prematurely finalized
 Begin MonoManager ReloadAssembly
+Thread 0x41c193000 may have been prematurely finalized
 ADTM: Control thread waiting for realtime thread timed out, have to lock...
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -416,1240 +280,33 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.374 seconds
-Domain Reload Profiling: 1804ms
-	BeginReloadAssembly (1101ms)
-		DisableScriptedObjects (4ms)
-		CreateAndSetChildDomain (1025ms)
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling: 1883ms
+	BeginReloadAssembly (1148ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (1029ms)
 	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (155ms)
-		TypeCache.Refresh (8ms)
-		AnalyzeDomain (81ms)
-			BuildScriptInfoCaches (77ms)
-	FinalizeReload (375ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (183ms)
+		TypeCache.Refresh (10ms)
+		AnalyzeDomain (89ms)
+			BuildScriptInfoCaches (85ms)
+	FinalizeReload (377ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6608 unused Assets / (7.2 MB). Loaded Objects now: 7519.
-Memory consumption went from 200.9 MB to 193.7 MB.
-Total: 5.868500 ms (FindLiveObjects: 0.496125 ms CreateObjectMapping: 0.137875 ms MarkObjects: 3.965791 ms  DeleteObjects: 1.175417 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6598 unused Assets / (7.0 MB). Loaded Objects now: 7520.
-Memory consumption went from 196.0 MB to 188.9 MB.
-Total: 11.325250 ms (FindLiveObjects: 0.685834 ms CreateObjectMapping: 0.181875 ms MarkObjects: 8.751375 ms  DeleteObjects: 1.596334 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:25:58.508946Z
-  Time since last request: 572.15626829200005 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '60ce227ea9aaa1fa8e90fe49bbc7cf74') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=aaa4bcc0db3771f9e3c0926da5338b48 StaticDependenciesID=3ec22cd252339dd40db5ae9348cab2b1 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:25:59.008537Z
-  Time since last request: 0.481005416 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: 'fbae3e2f734914b5335fca998b9af17d') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90da07d2ac68b6e165562cca96872309 DependenciesID=5d70608a2100771863e159786ed30828 StaticDependenciesID=866f25f0d10ace70bdb52135c3861f99 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Thread 0x16bf13000 may have been prematurely finalized
-ADTM: Control thread waiting for realtime thread timed out, have to lock...
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.331 seconds
-Domain Reload Profiling: 1804ms
-	BeginReloadAssembly (1135ms)
-		DisableScriptedObjects (5ms)
-		CreateAndSetChildDomain (1029ms)
-	RebuildCommonClasses (5ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (295ms)
-		LoadAssemblies (185ms)
-		TypeCache.Refresh (8ms)
-		AnalyzeDomain (83ms)
-			BuildScriptInfoCaches (80ms)
-	FinalizeReload (331ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (127ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6609 unused Assets / (7.2 MB). Loaded Objects now: 7523.
-Memory consumption went from 207.0 MB to 199.8 MB.
-Total: 5.805292 ms (FindLiveObjects: 0.479250 ms CreateObjectMapping: 0.134500 ms MarkObjects: 3.838000 ms  DeleteObjects: 1.268833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6598 unused Assets / (7.6 MB). Loaded Objects now: 7523.
-Memory consumption went from 202.2 MB to 194.7 MB.
-Total: 5.729458 ms (FindLiveObjects: 0.392833 ms CreateObjectMapping: 0.107292 ms MarkObjects: 3.807125 ms  DeleteObjects: 1.339000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.019545Z
-  Time since last request: 6.965624041 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.031521Z
-  Time since last request: 0.002152208 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.040559Z
-  Time since last request: 0.001545541 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.04893Z
-  Time since last request: 0.000975792 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.068592Z
-  Time since last request: 0.012213 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.175561Z
-  Time since last request: 0.098755292 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.185625Z
-  Time since last request: 0.002745792 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.195395Z
-  Time since last request: 0.002476375 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.204121Z
-  Time since last request: 0.001586959 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.212009Z
-  Time since last request: 0.000779834 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.221119Z
-  Time since last request: 0.002176083 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.228946Z
-  Time since last request: 0.000721958 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.237619Z
-  Time since last request: 0.001593459 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.245272Z
-  Time since last request: 0.00078375 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.253237Z
-  Time since last request: 0.000833875 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.261276Z
-  Time since last request: 0.00109375 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.269796Z
-  Time since last request: 0.001520833 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.278409Z
-  Time since last request: 0.001339917 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.286117Z
-  Time since last request: 0.000449584 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.295261Z
-  Time since last request: 0.00200875 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.303727Z
-  Time since last request: 0.001149917 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.311812Z
-  Time since last request: 0.000927709 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.320007Z
-  Time since last request: 0.0009565 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.327328Z
-  Time since last request: 0.000237708 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.33542Z
-  Time since last request: 0.000819375 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.344744Z
-  Time since last request: 0.002054834 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.35495Z
-  Time since last request: 0.00231375 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.364938Z
-  Time since last request: 0.001751042 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.373808Z
-  Time since last request: 0.0007255 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.384276Z
-  Time since last request: 0.002624875 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.394886Z
-  Time since last request: 0.001768417 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.404701Z
-  Time since last request: 0.001336667 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.413597Z
-  Time since last request: 0.001473125 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.422543Z
-  Time since last request: 0.001194334 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.431019Z
-  Time since last request: 0.000564333 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.441125Z
-  Time since last request: 0.002523125 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.44948Z
-  Time since last request: 0.000437583 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.459734Z
-  Time since last request: 0.000338958 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.469795Z
-  Time since last request: 0.002758708 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.47995Z
-  Time since last request: 0.002393833 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.489491Z
-  Time since last request: 0.001862916 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.498831Z
-  Time since last request: 0.002263 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.508002Z
-  Time since last request: 0.00218575 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.5197Z
-  Time since last request: 0.004403 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.530191Z
-  Time since last request: 0.002138333 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.53932Z
-  Time since last request: 0.00158725 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.547903Z
-  Time since last request: 0.000889167 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.558146Z
-  Time since last request: 0.00277475 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.567369Z
-  Time since last request: 0.001658417 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.578581Z
-  Time since last request: 0.002866083 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.588282Z
-  Time since last request: 0.0017455 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.600075Z
-  Time since last request: 0.001949792 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.614148Z
-  Time since last request: 0.0035925 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.623856Z
-  Time since last request: 0.001615375 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.639064Z
-  Time since last request: 0.00412025 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.649087Z
-  Time since last request: 0.000431042 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.666812Z
-  Time since last request: 0.006759958 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.681533Z
-  Time since last request: 0.002132792 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.695961Z
-  Time since last request: 0.004503583 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.706356Z
-  Time since last request: 0.000634042 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.720027Z
-  Time since last request: 0.002243708 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.734686Z
-  Time since last request: 0.003272125 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.746825Z
-  Time since last request: 0.002251583 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.756717Z
-  Time since last request: 0.001317417 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.770907Z
-  Time since last request: 0.004648583 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.782493Z
-  Time since last request: 0.00144625 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.791412Z
-  Time since last request: 0.00031625 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.80227Z
-  Time since last request: 0.002386292 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.814404Z
-  Time since last request: 0.002558708 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.824673Z
-  Time since last request: 0.002020583 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.838276Z
-  Time since last request: 0.003995875 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.855077Z
-  Time since last request: 0.004103541 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.863278Z
-  Time since last request: 0.000242208 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.87326Z
-  Time since last request: 0.002087167 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.881946Z
-  Time since last request: 0.000262333 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.890586Z
-  Time since last request: 0.000352917 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.90107Z
-  Time since last request: 0.002011958 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.910936Z
-  Time since last request: 0.000467208 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.923766Z
-  Time since last request: 0.001151042 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.93893Z
-  Time since last request: 0.0029665 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.956076Z
-  Time since last request: 0.004240542 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.97403Z
-  Time since last request: 0.003627458 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.986567Z
-  Time since last request: 0.000345916 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:06.999117Z
-  Time since last request: 0.002549167 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.011719Z
-  Time since last request: 0.001440375 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.024908Z
-  Time since last request: 0.003249417 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.033902Z
-  Time since last request: 0.000799458 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.042812Z
-  Time since last request: 0.000803916 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.051982Z
-  Time since last request: 0.001366042 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.061314Z
-  Time since last request: 0.000907458 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.072974Z
-  Time since last request: 0.003505708 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.085017Z
-  Time since last request: 0.001162625 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.095154Z
-  Time since last request: 0.001799792 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.109892Z
-  Time since last request: 0.003759375 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.123328Z
-  Time since last request: 0.00410725 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.132121Z
-  Time since last request: 0.001078125 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.140525Z
-  Time since last request: 0.000791833 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.150895Z
-  Time since last request: 0.003185666 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.158878Z
-  Time since last request: 0.000292042 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.169786Z
-  Time since last request: 0.003120625 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.183128Z
-  Time since last request: 0.004312834 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.191741Z
-  Time since last request: 0.000905291 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:07.200335Z
-  Time since last request: 0.001006416 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '27b1b6c33632e5a58695e4bbedf06384') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=43c7dcb1bd18bc5cda5bf8b6fe938fa5 StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Thread 0x16bd6f000 may have been prematurely finalized
-Begin MonoManager ReloadAssembly
-ADTM: Control thread waiting for realtime thread timed out, have to lock...
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.327 seconds
-Domain Reload Profiling: 1835ms
-	BeginReloadAssembly (1161ms)
-		DisableScriptedObjects (13ms)
-		CreateAndSetChildDomain (1041ms)
-	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (283ms)
-		LoadAssemblies (161ms)
-		TypeCache.Refresh (9ms)
-		AnalyzeDomain (85ms)
-			BuildScriptInfoCaches (82ms)
-	FinalizeReload (328ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6609 unused Assets / (6.9 MB). Loaded Objects now: 7526.
-Memory consumption went from 212.7 MB to 205.8 MB.
-Total: 5.916542 ms (FindLiveObjects: 0.487917 ms CreateObjectMapping: 0.128084 ms MarkObjects: 3.799375 ms  DeleteObjects: 1.417291 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:26:35.441459Z
-  Time since last request: 28.233764958 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: 'f61316b7a10ca2e61f90354a16870b9b') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=ec51b411f7fbb3712fa6a6b2e87c5a7d StaticDependenciesID=dd653741bfa480dadd0484bb40d33ec0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Thread 0x16bd6f000 may have been prematurely finalized
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-ADTM: Control thread waiting for realtime thread timed out, have to lock...
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.366 seconds
-Domain Reload Profiling: 1923ms
-	BeginReloadAssembly (1153ms)
-		DisableScriptedObjects (8ms)
-		CreateAndSetChildDomain (1030ms)
-	RebuildCommonClasses (6ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (337ms)
-		LoadAssemblies (198ms)
-		TypeCache.Refresh (11ms)
-		AnalyzeDomain (97ms)
-			BuildScriptInfoCaches (93ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (367ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (142ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6609 unused Assets / (6.7 MB). Loaded Objects now: 7529.
-Memory consumption went from 219.1 MB to 212.4 MB.
-Total: 6.466375 ms (FindLiveObjects: 0.571709 ms CreateObjectMapping: 0.136291 ms MarkObjects: 4.096917 ms  DeleteObjects: 1.564084 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:27:49.71561Z
-  Time since last request: 74.238209833 seconds.
-  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
-Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: '57acd8f0103d89282bd98f0b0221e375') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=bc5115a302dca8f99214292f8ce0103e StaticDependenciesID=62cdd9c2a0598324269a8cc5fe644578 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (5.1 MB). Loaded Objects now: 7529.
-Memory consumption went from 210.6 MB to 205.5 MB.
-Total: 6.353166 ms (FindLiveObjects: 0.257750 ms CreateObjectMapping: 0.057125 ms MarkObjects: 4.542375 ms  DeleteObjects: 1.412375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-20T11:29:46.054111Z
-  Time since last request: 116.32598445799999 seconds.
-  importAddress: GUID: 9c53962885c2c4f449125a979d6ad240 - Path: Assets/S03/Scenes - Importer: PreviewImporter
-Importing 'GUID: 9c53962885c2c4f449125a979d6ad240 - Path: Assets/S03/Scenes - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 9c53962885c2c4f449125a979d6ad240' -> (Import Result ID: '5564a76921880800cb70ccb99edc2f9c') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=350f5c5e13b2998d53017bdd858ee510 DependenciesID=fe1394fd63357ffba2a9061d7f302132 StaticDependenciesID=27ddc89e5381effa93e03a4ae8fc50ac 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-Thread 0x16bd6f000 may have been prematurely finalized
-ADTM: Control thread waiting for realtime thread timed out, have to lock...
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.371 seconds
-Domain Reload Profiling: 1875ms
-	BeginReloadAssembly (1153ms)
-		DisableScriptedObjects (14ms)
-		CreateAndSetChildDomain (1030ms)
-	RebuildCommonClasses (5ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (301ms)
-		LoadAssemblies (173ms)
-		TypeCache.Refresh (9ms)
-		AnalyzeDomain (86ms)
-			BuildScriptInfoCaches (82ms)
-	FinalizeReload (372ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (148ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6609 unused Assets / (7.6 MB). Loaded Objects now: 7532.
-Memory consumption went from 224.7 MB to 217.1 MB.
-Total: 7.006291 ms (FindLiveObjects: 0.517458 ms CreateObjectMapping: 0.189542 ms MarkObjects: 4.703583 ms  DeleteObjects: 1.508500 ms)
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6607 unused Assets / (7.2 MB). Loaded Objects now: 7522.
+Memory consumption went from 203.8 MB to 196.6 MB.
+Total: 5.673375 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.142209 ms MarkObjects: 3.736750 ms  DeleteObjects: 1.238542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1659,28 +316,16 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (5.1 MB). Loaded Objects now: 7532.
-Memory consumption went from 216.2 MB to 211.1 MB.
-Total: 5.006000 ms (FindLiveObjects: 0.269292 ms CreateObjectMapping: 0.055834 ms MarkObjects: 3.846750 ms  DeleteObjects: 0.738958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (5.1 MB). Loaded Objects now: 7532.
-Memory consumption went from 215.4 MB to 210.3 MB.
-Total: 4.953916 ms (FindLiveObjects: 0.279833 ms CreateObjectMapping: 0.065708 ms MarkObjects: 3.772917 ms  DeleteObjects: 0.752458 ms)
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (5.1 MB). Loaded Objects now: 7522.
+Memory consumption went from 195.0 MB to 189.9 MB.
+Total: 4.874791 ms (FindLiveObjects: 0.245167 ms CreateObjectMapping: 0.066458 ms MarkObjects: 3.767625 ms  DeleteObjects: 0.697625 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
-Thread 0x403ba3000 may have been prematurely finalized
+Thread 0x404047000 may have been prematurely finalized
+Thread 0x403f47000 may have been prematurely finalized
 AssetImportWorker is now disconnected from the server
 Process exiting
 [ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
