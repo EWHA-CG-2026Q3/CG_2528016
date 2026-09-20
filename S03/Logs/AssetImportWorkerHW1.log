@@ -556,3 +556,86 @@ Memory consumption went from 210.4 MB to 205.4 MB.
 Total: 5.618375 ms (FindLiveObjects: 0.265375 ms CreateObjectMapping: 0.055750 ms MarkObjects: 4.016417 ms  DeleteObjects: 1.198417 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16bffb000 may have been prematurely finalized
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.372 seconds
+Domain Reload Profiling: 1872ms
+	BeginReloadAssembly (1154ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (1030ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (173ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (86ms)
+			BuildScriptInfoCaches (82ms)
+	FinalizeReload (372ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6609 unused Assets / (7.5 MB). Loaded Objects now: 7532.
+Memory consumption went from 224.5 MB to 217.1 MB.
+Total: 6.966333 ms (FindLiveObjects: 0.452291 ms CreateObjectMapping: 0.165750 ms MarkObjects: 4.760834 ms  DeleteObjects: 1.492583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-20T11:30:01.368139Z
+  Time since last request: 815.01226070899997 seconds.
+  importAddress: GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter
+Importing 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7 - Path: Assets/S03/S03 custom polygon mesh.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3e1f8ebd9d1cd42f8aa151b85f9a81f7' -> (Import Result ID: 'f22a437cbe5d523fd72ece77b8004c07') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14784a0117f0684092c4545fba6a53d8 DependenciesID=b01b96f5dbf162068250ac05a7ca95fc StaticDependenciesID=7574a1a0da7bfe88af0bb9b9686a3330 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (5.1 MB). Loaded Objects now: 7532.
+Memory consumption went from 216.1 MB to 211.0 MB.
+Total: 4.970625 ms (FindLiveObjects: 0.271875 ms CreateObjectMapping: 0.060208 ms MarkObjects: 3.797375 ms  DeleteObjects: 0.750042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (5.1 MB). Loaded Objects now: 7532.
+Memory consumption went from 215.3 MB to 210.2 MB.
+Total: 4.835084 ms (FindLiveObjects: 0.279167 ms CreateObjectMapping: 0.062541 ms MarkObjects: 3.652125 ms  DeleteObjects: 0.750625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
