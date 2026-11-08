@@ -41,11 +41,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Cull: 0
-    - _Metallic: 0.8
-    - _Smoothness: 0.7
+    - _Metallic: 0.4
+    - _Smoothness: 0.6
     m_Colors:
-    - _BaseColor: {r: 0.9411765, g: 0.74509805, b: 0.74509805, a: 1}
-    - _Color: {r: 0.9411765, g: 0.74509805, b: 0.74509805, a: 1}
+    - _BaseColor: {r: 0.9607843, g: 0.78431374, b: 0.8039216, a: 1}
+    - _Color: {r: 0.96078426, g: 0.7843137, b: 0.8039216, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
